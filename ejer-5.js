@@ -17,9 +17,9 @@ const fun = (cadena) => {
    // Retorna las palabras que se repiten mas de una vez 
    // return v.filter( k => mapa.get(k) > 1)
 
-   
+
    //Retorna la palabra que mas se repite
    return v.reduce( (acc, el) => mapa.get(acc) > mapa.get(el) ? acc : el)
    
 }
-console.log(fun('y tu no estabas y no tu no estabas miles de sueños mueren junto a tu vida'))
+console.log(fun('pedro clavo un clavito en la calva de un calvito, pero pedro no tenia un clavito para la calva del calvito'))
